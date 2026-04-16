@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /
+      link: /hello-world
 
 features:
   - icon: i-ri-book-2-line
@@ -21,3 +21,5 @@ features:
     title: Customizable
     details: Fully customizable theme with flexible configuration.
 ---
+
+欢迎来到文档站。
