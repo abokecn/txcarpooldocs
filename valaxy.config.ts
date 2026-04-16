@@ -1,21 +1,27 @@
 import { defineValaxyConfig } from 'valaxy'
 
-export default defineValaxyConfig({
-  theme: 'press',
-  themeConfig: {
-    nav: [
-      { text: 'Home', link: '/' },
-    ],
-    sidebar: [],
-    footer: {
-      message: 'Powered by <a href="https://valaxy.site">Valaxy</a>',
-    },
+export default defineSiteConfig({
+  lang: 'zh-CN',
+  title: 'Valaxy Theme Yun',
+  url: 'https://valaxy.site/',
+  author: {
+    name: '云游君',
+    avatar: 'https://www.yunyoujun.cn/images/avatar.jpg',
   },
-  unocss: {
-    safelist: [
-      'i-ri-book-2-line',
-      'i-ri-flashlight-line',
-      'i-ri-palette-line',
-    ],
+  /**
+   * 站点图标
+   */
+  favicon: 'https://www.yunyoujun.cn/favicon.svg',
+  /**
+   * 副标题
+   */
+  subtitle: 'All at sea.',
+  description: 'Valaxy Theme Yun Preview.',
+  social: [
+    {
+      name: 'RSS',
+      link: '/atom.xml',
+      icon: 'i-ri-rss-line',
+      color: 'orange',
   },
 })
