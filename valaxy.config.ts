@@ -1,3 +1,5 @@
-import { defineValaxyConfig } from 'valaxy'
+import { defineConfig } from 'valaxy'
 
-export default defineValaxyConfig({})
+export default defineConfig({
+  theme: 'press'
+})
