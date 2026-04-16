@@ -2,8 +2,8 @@
 layout: home
 
 hero:
-  name: My Site
-  text: Welcome to My Site
+  name: TX CAR POOL DOCS
+  text: Welcome to TX CAR POOL
   tagline: Powered by Valaxy
   actions:
     - theme: brand
