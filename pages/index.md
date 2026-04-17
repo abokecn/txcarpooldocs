@@ -1,25 +1,36 @@
 ---
-layout: home
+style: home
+title: OpenList
+description:
+  en: OpenList is a resilient, community-driven file list program that supports multiple cloud storage platforms. Built as a secure fork of AList with enhanced security and long-term governance.
+  zh-CN: OpenList 是一个支持多种云存储平台的韧性文件列表程序。作为 AList 的安全分支，具有增强的安全性和长期治理保障。
+# titleTemplate: '%s - Next Generation Static Blog Framework'
 
 hero:
-  name: TX CAR POOL DOCS
-  text: Welcome to TX CAR POOL
-  tagline: Powered by Valaxy
+  name: OpenList
+  text:
   actions:
     - theme: brand
-      text: Get Started
-      link: /hello-world
-
-features:
-  - icon: i-ri-book-2-line
-    title: Documentation
-    details: Write docs with Markdown and Vue components.
-  - icon: i-ri-flashlight-line
-    title: Fast
-    details: Powered by Vite for instant HMR and fast builds.
-  - icon: i-ri-palette-line
-    title: Customizable
-    details: Fully customizable theme with flexible configuration.
+      text: hero.actions.get-started
+      link: /guide
+      type: fly
+    - theme: alt
+      text: hero.actions.view-github
+      link: https://github.com/OpenListTeam/OpenList
+    - theme: alt
+      external: true
+      text: hero.actions.disclaimer
+      link: /terms#disclaimer
+    - theme: alt
+      external: true
+      text: hero.actions.terms
+      link: /terms
+    - theme: alt
+      external: true
+      text: hero.actions.privacy
+      link: /privacy
+# todo, rewrite with valaxy
+# features:
 ---
 
-欢迎来到文档站。
+<!-- The INDEX page -->
